@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/cryptex)
   ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/cryptex?style=social)
@@ -51,4 +51,4 @@ If you want to contact with me you can reach me at [Twitter](https://www.twitter
 
 ### License
 
-This project is **free to use** and does not contains any license.
+This project is **free to use** and does not contains any license. -->
