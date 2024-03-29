@@ -1201,3 +1201,73 @@ address.footer-contact-link { max-width: 30ch; }
   .footer-brand { grid-column: auto; }
 
 }
+
+
+
+
+/* other css */
+
+
+
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9); /* Adjust the scale value for zoom level */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animated-image {
+  animation: zoom 5s infinite alternate; /* Adjust duration and timing as needed */
+}
+
+
+
+
+.trend-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  height: 100%; /* Ensure the card fills its container */
+  position: relative;
+  overflow: hidden;
+}
+
+.card-title-wrapper {
+  margin-bottom: 10px; /* Adjust as needed to separate the text from the image */
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-analytics {
+  text-align: center;
+}
+
+.trend-card .card-analytics img {
+  transition: transform 0.3s ease-in-out; /* Adjust animation duration and timing */
+}
+
+.trend-card:hover .card-analytics img {
+  transform: scale(1.1); /* Adjust the scale factor for the zoom effect */
+}
+
+.tab-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Optionally set a height to align vertically within the parent container */
+}
+
+.tab-nav li {
+  text-align: center; /* Center the text within the list item */
+}
+
+
