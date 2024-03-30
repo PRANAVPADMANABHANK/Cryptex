@@ -2,76 +2,95 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cryptex - Buy & Sell Digital Assets In The cryptex</title>
 
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets//images/LOGOHOMEBAR-01.png" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets//images/LOGOHOMEBAR-01.png" type="image/svg+xml" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-pFMH2ugvjmVTIiNZDhaxqjOKwEM+q7pMeLNHJmk01f0QuP9RvjjAqaA00M4HiiUp0E1RWW+Uoo5g3GfN6+qfMw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
   <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-
   <!-- 
     - #HEADER
   -->
 
   <header class="header" data-header>
     <div class="container">
-
       <a href="#" class="logo">
-        <img src="./assets/images/LOGOHOMEBAR-01.png" width="180" height="32" alt="Cryptex logo">
-
+        <img src="./assets/images/LOGOHOMEBAR-01.png" width="180" height="32" alt="Cryptex logo" />
       </a>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
-
           <li class="navbar-item">
             <a href="#" class="navbar-link" data-nav-link>Home</a>
           </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Products</a>
+          <li class="navbar-item dropdown">
+            <a href="#" class="navbar-link dropdown-toggle" data-nav-link>Products</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Forex</a></li>
+              <li><a href="#">Metals</a></li>
+              <li><a href="#">Commodities</a></li>
+              <li><a href="#">Indices</a></li>
+              <li><a href="#">Cryptocurrencies</a></li>
+              <li><a href="#">Shares</a></li>
+              <li><a href="#">Bonds</a></li>
+            </ul>
           </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Services</a>
+          <li class="navbar-item dropdown">
+            <a href="#" class="navbar-link dropdown-toggle" data-nav-link>Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Brokerage Accounts</a></li>
+              <li><a href="#">Margin Trading</a></li>
+              <li><a href="#">Customer Support</a></li>
+            </ul>
           </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Platforms</a>
+          <li class="navbar-item dropdown">
+            <a href="#" class="navbar-link dropdown-toggle" data-nav-link>Platforms</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Meta Trader 5 Trading Platform</a></li>
+              <li><a href="#">Meta Trader 5 Mobile Trading</a></li>
+            </ul>
           </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Accounts</a>
+          <li class="navbar-item dropdown">
+            <a href="#" class="navbar-link dropdown-toggle" data-nav-link>Accounts</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Classic Account</a></li>
+              <li><a href="#">Executive Account</a></li>
+              <li><a href="#">Premium Account</a></li>
+              <li><a href="#">Compare Accounts</a></li>
+            </ul>
           </li>
-
           <li class="navbar-item">
             <a href="#" class="navbar-link" data-nav-link>About Us</a>
           </li>
-
           <li class="navbar-item">
             <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
           </li>
-
         </ul>
       </nav>
+      
+      
 
       <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
         <span class="line line-1"></span>
@@ -79,63 +98,48 @@
         <span class="line line-3"></span>
       </button>
 
-      <div style="display: flex;">
-
-        <a href="#" class="btn btn-outline" style="margin-right: 10px;">Log in</a>
+      <div style="display: flex">
+        <a href="#" class="btn btn-outline" style="margin-right: 10px">Log in</a>
 
         <a href="#" class="btn btn-outline">Sign up</a>
       </div>
-
     </div>
   </header>
 
-
-
-
-
   <main>
     <article>
-
       <!-- 
         - #HERO
       -->
 
       <section class="section hero" aria-label="hero" data-section>
         <div class="container">
-
           <div class="hero-content">
-
-            <h1 class="h1 hero-title">Accel​erate Your Financial Growth with Miles Capital limited</h1>
+            <h1 class="h1 hero-title">
+              Accel​erate Your Financial Growth with Miles Capital limited
+            </h1>
 
             <p class="hero-text">
-              Welcome to Miles Capital Limited, your trusted partner in smart tra​ding.
+              Welcome to Miles Capital Limited, your trusted partner in smart
+              tra​ding.
             </p>
 
-            <div style="display: flex;">
-              <a href="#" class="btn btn-primary" style="margin-right: 10px;">Create Account</a>
+            <div style="display: flex">
+              <a href="#" class="btn btn-primary" style="margin-right: 10px">Create Account</a>
               <a href="#" class="btn btn-primary">Open a Demo Account</a>
             </div>
-
-
-
-
           </div>
 
           <figure class="hero-banner">
-            <div style="width: 500px; height: 500px; overflow: hidden;">
+            <div style="width: 500px; height: 500px; overflow: hidden">
               <img src="./assets/images/ELEMENTS01.png" width="570" height="448" alt="hero banner"
-                class="w-100 animated-image">
+                class="w-100 animated-image" />
             </div>
 
             <!-- <img src="./assets/images/ELEMENTS01.png" width="570" height="448" alt="hero banner" class="w-100"> -->
           </figure>
-
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #TREND
@@ -143,193 +147,132 @@
 
       <section class="section trend" aria-label="crypto trend" data-section>
         <div class="container">
-
           <div class="trend-tab">
-
             <ul class="tab-nav">
-
               <li>
                 <h4 class="h2 section-title">Our Products</h4>
-                <h4 class="h4 section-title">Unlock a world of investment opportunities with Miles Capital</h4>
+                <h4 class="h4 section-title">
+                  Unlock a world of investment opportunities with Miles
+                  Capital
+                </h4>
               </li>
-
             </ul>
 
             <ul class="tab-content">
-
               <li>
                 <div class="trend-card">
-
                   <div class="card-title-wrapper">
-
-                    <a href="#" class="card-title">
-                      Forex
-                    </a>
+                    <a href="#" class="card-title"> Forex </a>
                   </div>
-
 
                   <div class="card-analytics">
-
-                    <img src="./assets/images/Gradient01.png" alt="Large Image">
-
+                    <img src="./assets/images/Gradient01.png" alt="Large Image" />
                   </div>
-
                 </div>
               </li>
 
               <li>
                 <div class="trend-card">
-
                   <div class="card-title-wrapper">
-
-                    <a href="#" class="card-title">
-                      Metals
-                    </a>
+                    <a href="#" class="card-title"> Metals </a>
                   </div>
-
 
                   <div class="card-analytics">
-
-                    <img src="./assets/images/GD02.png" alt="Large Image">
-
+                    <img src="./assets/images/GD02.png" alt="Large Image" />
                   </div>
-
                 </div>
               </li>
 
               <li>
                 <div class="trend-card">
-
                   <div class="card-title-wrapper">
-
-                    <a href="#" class="card-title">
-                      Commodities
-                    </a>
+                    <a href="#" class="card-title"> Commodities </a>
                   </div>
-
 
                   <div class="card-analytics">
-
-                    <img src="./assets/images/GD03.png" alt="Large Image">
-
+                    <img src="./assets/images/GD03.png" alt="Large Image" />
                   </div>
-
                 </div>
               </li>
 
               <li>
                 <div class="trend-card">
-
                   <div class="card-title-wrapper">
-
-                    <a href="#" class="card-title">
-                      Indices
-                    </a>
+                    <a href="#" class="card-title"> Indices </a>
                   </div>
-
 
                   <div class="card-analytics">
-
-                    <img src="./assets/images/GD04.png" alt="Large Image">
-
+                    <img src="./assets/images/GD04.png" alt="Large Image" />
                   </div>
-
                 </div>
               </li>
 
               <li>
                 <div class="trend-card">
-
                   <div class="card-title-wrapper">
-
-                    <a href="#" class="card-title">
-                      Crypto Currency
-                    </a>
+                    <a href="#" class="card-title"> Crypto Currency </a>
                   </div>
-
 
                   <div class="card-analytics">
-
-                    <img src="./assets/images//GD05.png" alt="Large Image">
-
+                    <img src="./assets/images//GD05.png" alt="Large Image" />
                   </div>
-
                 </div>
               </li>
 
               <li>
                 <div class="trend-card">
-
                   <div class="card-title-wrapper">
-
-                    <a href="#" class="card-title">
-                      Shares
-                    </a>
+                    <a href="#" class="card-title"> Shares </a>
                   </div>
-
 
                   <div class="card-analytics">
-
-                    <img src="./assets/images/GD06.png" alt="Large Image">
-
+                    <img src="./assets/images/GD06.png" alt="Large Image" />
                   </div>
-
                 </div>
               </li>
 
               <li>
                 <div class="trend-card">
-
                   <div class="card-title-wrapper">
-
-                    <a href="#" class="card-title">
-                      Bonds
-                    </a>
+                    <a href="#" class="card-title"> Bonds </a>
                   </div>
-
 
                   <div class="card-analytics">
-
-                    <img src="./assets/images/GD07.png" alt="Large Image">
-
+                    <img src="./assets/images/GD07.png" alt="Large Image" />
                   </div>
-
                 </div>
               </li>
-
             </ul>
-
           </div>
-
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #MARKET
       -->
 
       <section class="section market" aria-label="market update" data-section>
+        <br />
         <div class="container">
-
           <div class="title-wrapper">
-            <h2 class="h2 section-title">Market Update</h2>
+            <h2 class="h2 section-title center">
+              The Only Broker Stands for your Profit
+            </h2>
 
-            <a href="#" class="btn-link">See All Coins</a>
+            <img src="./assets/images/metatrader5_ios_screen__1-removebg-preview-2.png" alt="Animation"
+              class="animation-image" />
+
+            <!-- <a href="#" class="btn-link">See All Coins</a> -->
           </div>
 
+          <br /><br />
           <div class="market-tab">
-
             <ul class="tab-nav">
-
               <li>
-                <button class="tab-btn active">View All</button>
+                <a href="#" class="btn btn-primary">Contact Us</a>
               </li>
 
-              <li>
+              <!-- <li>
                 <button class="tab-btn">Metaverse</button>
               </li>
 
@@ -351,15 +294,12 @@
 
               <li>
                 <button class="tab-btn">Music</button>
-              </li>
-
+              </li> -->
             </ul>
 
             <table class="market-table">
-
               <thead class="table-head">
-
-                <tr class="table-row table-title">
+                <!-- <tr class="table-row table-title">
 
                   <th class="table-heading"></th>
 
@@ -377,14 +317,11 @@
 
                   <th class="table-heading"></th>
 
-                </tr>
-
+                </tr> -->
               </thead>
 
               <tbody class="table-body">
-
                 <tr class="table-row">
-
                   <td class="table-data">
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
                       <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
@@ -396,32 +333,15 @@
 
                   <td class="table-data">
                     <div class="wrapper">
-                      <img src="./assets/images/coin-1.svg" width="20" height="20" alt="Bitcoin logo" class="img">
-
                       <h3>
-                        <a href="#" class="coin-name">Bitcoin <span class="span">BTC</span></a>
+                        <a href="#" class="coin-name">
+                          Operating 100% with Bank and Liquidity Provider.</a>
                       </h3>
                     </div>
                   </td>
-
-                  <td class="table-data last-price">$56,623.54</td>
-
-                  <td class="table-data last-update green">+1.45%</td>
-
-                  <td class="table-data market-cap">$880,423,640,582</td>
-
-                  <td class="table-data">
-                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
-
                 </tr>
 
                 <tr class="table-row">
-
                   <td class="table-data">
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
                       <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
@@ -433,32 +353,15 @@
 
                   <td class="table-data">
                     <div class="wrapper">
-                      <img src="./assets/images/coin-2.svg" width="20" height="20" alt="Ethereum logo" class="img">
-
                       <h3>
-                        <a href="#" class="coin-name">Ethereum <span class="span">ETH</span></a>
+                        <a href="#" class="coin-name">
+                          We do all trade in ‘A’ book.</a>
                       </h3>
                     </div>
                   </td>
-
-                  <td class="table-data last-price">$56,623.54</td>
-
-                  <td class="table-data last-update red">-5.12%</td>
-
-                  <td class="table-data market-cap">$880,423,640,582</td>
-
-                  <td class="table-data">
-                    <img src="./assets/images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
-
                 </tr>
 
                 <tr class="table-row">
-
                   <td class="table-data">
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
                       <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
@@ -470,32 +373,14 @@
 
                   <td class="table-data">
                     <div class="wrapper">
-                      <img src="./assets/images/coin-3.svg" width="20" height="20" alt="Tether logo" class="img">
-
                       <h3>
-                        <a href="#" class="coin-name">Tether <span class="span">USDT/USD</span></a>
+                        <a href="#" class="coin-name">Swap free Account.</a>
                       </h3>
                     </div>
                   </td>
-
-                  <td class="table-data last-price">$56,623.54</td>
-
-                  <td class="table-data last-update green">+1.45%</td>
-
-                  <td class="table-data market-cap">$880,423,640,582</td>
-
-                  <td class="table-data">
-                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
-
                 </tr>
 
                 <tr class="table-row">
-
                   <td class="table-data">
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
                       <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
@@ -507,32 +392,14 @@
 
                   <td class="table-data">
                     <div class="wrapper">
-                      <img src="./assets/images/coin-4.svg" width="20" height="20" alt="BNB logo" class="img">
-
                       <h3>
-                        <a href="#" class="coin-name">BNB <span class="span">BNB/USD</span></a>
+                        <a href="#" class="coin-name">Faster ​Withdrawals.</a>
                       </h3>
                     </div>
                   </td>
-
-                  <td class="table-data last-price">$56,623.54</td>
-
-                  <td class="table-data last-update red">-3.75%%</td>
-
-                  <td class="table-data market-cap">$880,423,640,582</td>
-
-                  <td class="table-data">
-                    <img src="./assets/images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
-
                 </tr>
 
                 <tr class="table-row">
-
                   <td class="table-data">
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
                       <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
@@ -544,32 +411,16 @@
 
                   <td class="table-data">
                     <div class="wrapper">
-                      <img src="./assets/images/coin-5.svg" width="20" height="20" alt="Solana logo" class="img">
-
                       <h3>
-                        <a href="#" class="coin-name">Solana <span class="span">SOL</span></a>
+                        <a href="#" class="coin-name">
+                          We offer best spreads in the Market, so you can keep
+                          more of your profits.</a>
                       </h3>
                     </div>
                   </td>
-
-                  <td class="table-data last-price">$56,623.54</td>
-
-                  <td class="table-data last-update green">+1.45%</td>
-
-                  <td class="table-data market-cap">$880,423,640,582</td>
-
-                  <td class="table-data">
-                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
-
                 </tr>
 
                 <tr class="table-row">
-
                   <td class="table-data">
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
                       <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
@@ -581,32 +432,15 @@
 
                   <td class="table-data">
                     <div class="wrapper">
-                      <img src="./assets/images/coin-6.svg" width="20" height="20" alt="XRP logo" class="img">
-
                       <h3>
-                        <a href="#" class="coin-name">XRP <span class="span">XRP</span></a>
+                        <a href="#" class="coin-name">
+                          Zero Commission Accounts.</a>
                       </h3>
                     </div>
                   </td>
-
-                  <td class="table-data last-price">$56,623.54</td>
-
-                  <td class="table-data last-update red">-2.22%</td>
-
-                  <td class="table-data market-cap">$880,423,640,582</td>
-
-                  <td class="table-data">
-                    <img src="./assets/images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
-
                 </tr>
 
                 <tr class="table-row">
-
                   <td class="table-data">
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
                       <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
@@ -618,32 +452,15 @@
 
                   <td class="table-data">
                     <div class="wrapper">
-                      <img src="./assets/images/coin-7.svg" width="20" height="20" alt="Cardano logo" class="img">
-
                       <h3>
-                        <a href="#" class="coin-name">Cardano <span class="span">ADA</span></a>
+                        <a href="#" class="coin-name">
+                          24/7 Customer Support.</a>
                       </h3>
                     </div>
                   </td>
-
-                  <td class="table-data last-price">$56,623.54</td>
-
-                  <td class="table-data last-update green">+0.8%</td>
-
-                  <td class="table-data market-cap">$880,423,640,582</td>
-
-                  <td class="table-data">
-                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
-
                 </tr>
 
                 <tr class="table-row">
-
                   <td class="table-data">
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
                       <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
@@ -655,142 +472,341 @@
 
                   <td class="table-data">
                     <div class="wrapper">
-                      <img src="./assets/images/coin-8.svg" width="20" height="20" alt="Avalanche logo" class="img">
-
                       <h3>
-                        <a href="#" class="coin-name">Avalanche <span class="span">AVAX</span></a>
+                        <a href="#" class="coin-name">
+                          ​​Lightning Fast Executions.</a>
                       </h3>
                     </div>
                   </td>
-
-                  <td class="table-data last-price">$56,623.54</td>
-
-                  <td class="table-data last-update green">+1.41%</td>
-
-                  <td class="table-data market-cap">$880,423,640,582</td>
-
-                  <td class="table-data">
-                    <img src="./assets/images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
-
                 </tr>
 
+                <tr class="table-row">
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">9</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <h3>
+                        <a href="#" class="coin-name">
+                          Transparent Trading with no hidden Fees.</a>
+                      </h3>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="table-row">
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">10</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <h3>
+                        <a href="#" class="coin-name">
+                          Advance Trading Platform.</a>
+                      </h3>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="table-row">
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">11</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <h3>
+                        <a href="#" class="coin-name">
+                          ​We are licensed under The Financial Services
+                          Commission (FSC) of Mauritius.</a>
+                      </h3>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="table-row">
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">12</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <h3>
+                        <a href="#" class="coin-name">
+                          Free Demo Account to Practice Risk Free Trading.</a>
+                      </h3>
+                    </div>
+                  </td>
+                </tr>
               </tbody>
-
             </table>
-
           </div>
-
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #INSTRUCTION
       -->
 
       <section class="section instruction" aria-label="instruction" data-section>
+        <div class="background-image">
+          <!-- Your background image goes here -->
+        </div>
         <div class="container">
-
-          <h2 class="h2 section-title">How It Work</h2>
-
-          <p class="section-text">
-            Stacks is a production-ready library of stackable content blocks built in React Native.
-          </p>
-
-          <ul class="instruction-list">
-
-            <li>
-              <div class="instruction-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/instruction-1.png" width="96" height="96" loading="lazy" alt="Step 1"
-                    class="img">
-                </figure>
-
-                <p class="card-subtitle">Step 1</p>
-
-                <h3 class="h3 card-title">Download</h3>
-
-                <p class="card-text">
-                  Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="instruction-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/instruction-2.png" width="96" height="96" loading="lazy" alt="Step 2"
-                    class="img">
-                </figure>
-
-                <p class="card-subtitle">Step 2</p>
-
-                <h3 class="h3 card-title">Connect Wallet</h3>
-
-                <p class="card-text">
-                  Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="instruction-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/instruction-3.png" width="96" height="96" loading="lazy" alt="Step 3"
-                    class="img">
-                </figure>
-
-                <p class="card-subtitle">Step 3</p>
-
-                <h3 class="h3 card-title">Start Trading</h3>
-
-                <p class="card-text">
-                  Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="instruction-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/instruction-4.png" width="96" height="96" loading="lazy" alt="Step 4"
-                    class="img">
-                </figure>
-
-                <p class="card-subtitle">Step 4</p>
-
-                <h3 class="h3 card-title">Earn Money</h3>
-
-                <p class="card-text">
-                  Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
-                </p>
-
-              </div>
-            </li>
-
-          </ul>
-
+          <div class="content">
+            <h2 class="h2 section-title">Unparalleled Trading Platforms</h2>
+            <p class="section-text">
+              Trade with cutting-edge technology on our MetaTrader 5 (MT5)
+              platform, featuring advanced charting tools and lightning-fast
+              execution for seamless trading on desktop, web, or mobile.
+              Experience the power of state-of-the-art platforms and never
+              miss out on profitable opportunities.
+            </p>
+            <div style="display: flex; justify-content: center">
+              <a href="#" class="btn btn-primary" style="margin-right: 10px">MT5 Desktop</a>
+              <a href="#" class="btn btn-primary"> MT5 Mobile </a>
+            </div>
+          </div>
         </div>
       </section>
 
 
 
 
+
+      <section class="section about" aria-label="about" data-section>
+        <div class="container">
+          <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+              <img src="./assets/images/download (13).png" alt="Image 1" class="card-image">
+              <p class="card-name">Classic Account</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+              <img src="./assets/images/download (12).png" alt="Image 2" class="card-image">
+              <p class="card-name">Executive Account</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+              <img src="./assets/images/download (11).png" alt="Image 3" class="card-image">
+              <p class="card-name">Premium Account</p>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <h2 class="h2 section-title">Choose Your Perfect Account Type for Optimal Trading</h2>
+            <a href="#" class="btn btn-primary">Start Trading</a>
+          </div>
+        </div>
+        <br><br>
+      </section>
+
+
+      <section class="section trend" aria-label="crypto trend" data-section>
+        <div class="container">
+          <div class="trend-tab">
+            <ul class="tab-nav">
+              <li>
+                <h4 class="h2 section-title">Join the Miles Capital Family</h4>
+                <h4 class="h4 section-title">
+                  Partner with Miles Capital and embark on a journey towards financial success. With our unwavering
+                  commitment to integrity, transparency, and excellence, we aim to build long-lasting relationships with
+                  our clients, helping them achieve their financial dreams
+                </h4>
+              </li>
+            </ul>
+
+            <li>
+              <h4 class="h4 section-title">
+                Explore our website to learn more about our services, open an account, and take control of your
+                financial future with Miles Capital.</h4>
+              <div class="about-content">
+                <a href="#" class="btn btn-primary">Create Account</a>
+              </div>
+            </li>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <div class="section trend" aria-label="crypto trend" data-section>
+
+
+
+        <div class="container">
+          <ul class="tab-nav">
+            <li>
+              <h4 class="h2 section-title">Miles Capital Core Values</h4>
+              <br><br><br>
+            </li>
+          </ul>
+          <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-content">
+                <img src="./assets/images/download (14).png" alt="Image 1" class="card-image-values">
+                <h3 class="card-name">Consulting</h3>
+                <p class="card-text">Expert consulting services to guide your trading strategy and help you achieve your
+                  financial goals. Our consulting services cover a wide range of areas, including market analysis, risk
+                  management, and trading strategy development
+
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-content">
+                <img src="./assets/images/download (15).png" alt="Image 2" class="card-image-values">
+                <h3 class="card-name">Strategy</h3>
+                <p class="card-text">Unlock your trading potential with Miles Capital Limited's innovative and
+                  customized trading strategy, designed to optimize your profits and minimize your risk in the
+                  ever-changing financial markets
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="card-content">
+                <img src="./assets/images/download (16).png" alt="Image 3" class="card-image-values">
+                <h3 class="card-name">Investment</h3>
+                <p class="card-text">Investing Made Easy: Trust Miles Capital Limited for Your Financial Future Or Your
+                  Success is Our Priority: Invest with Miles Capital Limited Our team of forex experts works tirelessly
+                  to analyze market trends and identify profitable trading opportunities
+
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <section class="section instruction" aria-label="instruction" data-section>
+        <div class="container">
+          <h2 class="h2 section-title">Here are a few reasons you should choose Miles Capital</h2>
+
+          <p class="section-text">
+            We enable millions of Peoples to achieve their financial dreams
+          </p>
+          <a href="#" class="btn btn-primary"> Start Trading </a>
+
+          <ul class="instruction-list">
+            <li>
+              <div class="instruction-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/download (7).png" width="96" height="96" loading="lazy" alt="Step 1"
+                    class="img" />
+                </figure>
+
+                <!-- <p class="card-subtitle">Step 1</p> -->
+
+                <h3 class="h3 card-title">Application</h3>
+
+                <p class="card-text">
+                  Best trading application so far Excellent user interface. Easy to search for stocks. Margin trading
+                  facility is good.
+
+
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/download (8).png" width="96" height="96" loading="lazy" alt="Step 2"
+                    class="img" />
+                </figure>
+
+                <!-- <p class="card-subtitle">Step 2</p> -->
+
+                <h3 class="h3 card-title">Platform</h3>
+
+                <p class="card-text">
+                  One of the best trading platform. Smooth UI. All that you need for efficient trading, perfectly
+                  aligned and kept under a seamless platform
+
+
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/download (9).png" width="96" height="96" loading="lazy" alt="Step 3"
+                    class="img" />
+                </figure>
+
+                <!-- <p class="card-subtitle">Step 3</p> -->
+
+                <h3 class="h3 card-title">Trustworthy</h3>
+
+                <p class="card-text">
+                  A reliable app and highly trustworthy. No one should avoid taking benefit from such a great service!
+                  Designed for speed and comfort!
+
+
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/download (10).png" width="96" height="96" loading="lazy" alt="Step 4"
+                    class="img" />
+                </figure>
+
+                <!-- <p class="card-subtitle">Step 4</p> -->
+
+                <h3 class="h3 card-title">Future</h3>
+
+                <p class="card-text">
+                  Investing and trading made simple, affordable and accessible for you.
+
+
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <!-- 
         - #ABOUT
@@ -798,62 +814,28 @@
 
       <section class="section about" aria-label="about" data-section>
         <div class="container">
-
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner.png" width="748" height="436" loading="lazy" alt="about banner"
-              class="w-100">
-          </figure>
-
-          <div class="about-content">
-
-            <h2 class="h2 section-title">What Is Cryptex</h2>
-
-            <p class="section-text">
-              Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot
-              Trade, Futures
-              Trade, P2P, Staking, Mining, and margin.
-            </p>
-
-            <ul class="section-list">
-
-              <li class="section-item">
-                <div class="title-wrapper">
-                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-
-                  <h3 class="h3 list-title">View real-time cryptocurrency prices</h3>
-                </div>
-
-                <p class="item-text">
-                  Experience a variety of trading on Bitcost. You can use various types of coin transactions such as
-                  Spot Trade, Futures
-                  Trade, P2P, Staking, Mining, and margin.
-                </p>
-              </li>
-
-              <li class="section-item">
-                <div class="title-wrapper">
-                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-
-                  <h3 class="h3 list-title">Buy and sell BTC, ETH, XRP, OKB, Etc...</h3>
-                </div>
-
-                <p class="item-text">
-                  Experience a variety of trading on Bitcost. You can use various types of coin transactions such as
-                  Spot Trade, Futures
-                  Trade, P2P, Staking, Mining, and margin.
-                </p>
-              </li>
-
-            </ul>
-
-            <a href="#" class="btn btn-primary">Explore More</a>
-
+          <div class="row">
+            <div class="col">
+              <div class="email-subscribe">
+                <p class="section-text zoom-text">Join now with Miles Capital to get the latest news and start mining
+                  now</p>
+              </div>
+            </div>
           </div>
-
+          <div class="row">
+            <div class="col-md-8">
+              <form class="subscribe-form">
+                <div class="input-group">
+                  <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
-
-
 
 
 
@@ -861,24 +843,26 @@
         - #APP
       -->
 
-      <section class="section app" aria-label="app" data-section>
+      <!-- <section class="section app" aria-label="app" data-section>
         <div class="container">
-
           <div class="app-content">
-
-            <h2 class="h2 section-title">Free Your Money & Invest With Confident</h2>
+            <h2 class="h2 section-title">
+              Free Your Money & Invest With Confident
+            </h2>
 
             <p class="section-text">
-              With Cryptor Trade, you can be sure your trading skills are matched
+              With Cryptor Trade, you can be sure your trading skills are
+              matched
             </p>
 
             <ul class="section-list">
-
               <li class="section-item">
                 <div class="title-wrapper">
                   <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
-                  <h3 class="h3 item-title">Buy, Sell, And Trade On The Go</h3>
+                  <h3 class="h3 item-title">
+                    Buy, Sell, And Trade On The Go
+                  </h3>
                 </div>
 
                 <p class="item-text">
@@ -897,151 +881,139 @@
                   Rest Assured You (And Only You) Have Access To Your Funds
                 </p>
               </li>
-
             </ul>
 
             <div class="app-wrapper">
               <a href="#">
                 <img src="./assets/images/googleplay.png" width="135" height="40" loading="lazy"
-                  alt="get it on google play">
+                  alt="get it on google play" />
               </a>
 
               <a href="#">
                 <img src="./assets/images/appstore.png" width="120" height="40" loading="lazy"
-                  alt="download on the app store">
+                  alt="download on the app store" />
               </a>
             </div>
-
           </div>
 
           <div class="app-banner">
             <img src="./assets/images/app-banner.png" width="618" height="526" loading="lazy" alt="app banner"
-              class="w-100">
+              class="w-100" />
 
             <span class="span">Scan To Download</span>
           </div>
-
         </div>
-      </section>
-
+      </section> -->
     </article>
   </main>
-
-
-
-
 
   <!-- 
     - #FOOTER
   -->
 
   <footer class="footer">
-
     <div class="footer-top" data-section>
       <div class="container">
-
         <div class="footer-brand">
-
           <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" width="50" height="50" alt="Cryptex logo">
-            Cryptex
+            <img src="./assets/images/LOGOHOMEBAR-01.png" width="200" height="32" alt="Cryptex logo" />
+
           </a>
 
           <h2 class="footer-title">Let's talk! 🤙</h2>
 
-          <a href="tel:+123456789101" class="footer-contact-link">+12 345 678 9101</a>
+          <a href="tel:+123456789101" class="footer-contact-link">00971 4252 3475</a>
 
-          <a href="mailto:hello.cryptex@gmail.com" class="footer-contact-link">hello.cryptex@gmail.com</a>
+          <a href="mailto:hello.cryptex@gmail.com" class="footer-contact-link">info@milescap.com</a>
 
           <address class="footer-contact-link">
-            Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
+            Premier Business Centre, 10th Floor, Sterling Tower, 14 Poudriere Street, Port-Louis, Mauritius
+            Registration Number - 194281
           </address>
-
         </div>
 
         <ul class="footer-list">
-
           <li>
-            <p class="footer-list-title">Products</p>
+            <p class="footer-list-title">Quick Link
+
+            </p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Spot</a>
+            <a href="#" class="footer-link">Home</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Inverse Perpetual</a>
+            <a href="#" class="footer-link">Services</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">USDT Perpetual</a>
+            <a href="#" class="footer-link">Platforms</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Exchange</a>
+            <a href="#" class="footer-link">Accounts</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Launchpad</a>
+            <a href="#" class="footer-link">About us
+
+            </a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="#" class="footer-link">Binance Pay</a>
-          </li>
-
+          </li> -->
         </ul>
 
         <ul class="footer-list">
-
           <li>
-            <p class="footer-list-title">Services</p>
+            <p class="footer-list-title">Policy</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Buy Crypto</a>
+            <a href="#" class="footer-link">Privacy & Policy</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Markets</a>
+            <a href="#" class="footer-link">AML Policy</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Tranding Fee</a>
+            <a href="#" class="footer-link">Risk Management Policy</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Affiliate Program</a>
+            <a href="#" class="footer-link">IT Disaster Policy</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Referral Program</a>
+            <a href="#" class="footer-link">Withdrawal Policy</a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="#" class="footer-link">API</a>
-          </li>
-
+          </li> -->
         </ul>
 
         <ul class="footer-list">
-
           <li>
-            <p class="footer-list-title">Support</p>
+            <p class="footer-list-title">Others</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Bybit Learn</a>
+            <a href="#" class="footer-link">Risk Warning</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Help Center</a>
+            <a href="#" class="footer-link">Website Discalimer</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">User Feedback</a>
+            <a href="#" class="footer-link">Contact Us</a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="#" class="footer-link">Submit a request</a>
           </li>
 
@@ -1051,50 +1023,9 @@
 
           <li>
             <a href="#" class="footer-link">Trading Rules</a>
-          </li>
-
+          </li> -->
         </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">About Us</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Bybit</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Authenticity Check</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Careers</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Business Contacts</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Blog</a>
-          </li>
-
-        </ul>
-
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2022 Cryptex All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>
-        </p>
-
         <ul class="social-list">
-
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
@@ -1119,16 +1050,63 @@
             </a>
           </li>
 
+          <!-- YouTube icon -->
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <!-- Pinterest icon -->
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
         </ul>
 
+        <!-- <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">About Us</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Bybit</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Authenticity Check</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Careers</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Business Contacts</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+        </ul> -->
       </div>
     </div>
 
+    <div class="container">
+      <p class="copyright small">
+        Miles Capital Limited is regulated under The Financial Services Commission (FSC) of Mauritius.<br />
+        License number: GB22201008 and our company number is 194281.
+      </p>
+      <!-- Additional sentences -->
+      <p class="additional-sentence small"><b>Risk statement:</b>  An investment in derivatives may mean investors may lose an amount even greater than their original investment. Anyone wishing to invest in any of the products mentioned in milescap.com should seek their own financial or professional advice. Trading of securities, forex, stock market, commodities, options and futures may not be suitable for everyone and involves the risk of losing part or all of your money. Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the markets. Don't invest and trade with money which you can't afford to lose. Forex Trading are not allowed in some countries, before investing your money, make sure whether your country is allowing this or not.
+        You are strongly advised to obtain independent financial, legal and tax advice before proceeding with any currency or spot metals trade. Nothing in this site should be read or construed as constituting advice on the part of Miles Capital Limited or any of its affiliates, directors, officers or employees.
+        Information on this site is not directed at residents in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</p>
+      <p class="additional-sentence small"><b>Restricted Regions:</b> Miles Capital Limited does not provide services for citizens/residents of the ​United States, Cuba, Iraq, Myanmar, North Korea, Sudan, Iran, Somalia, Syrian Arab Republic, Yemen, Republic of Congo. The services of Miles Capital Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</p>
+    </div>
+    
   </footer>
-
-
-
-
 
   <!-- 
     - custom js link
@@ -1140,7 +1118,6 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>

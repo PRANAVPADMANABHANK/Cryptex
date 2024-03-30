@@ -1196,7 +1196,7 @@ address.footer-contact-link { max-width: 30ch; }
 
   .footer-top { padding-block: 100px 90px; }
 
-  .footer-top .container { grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr; }
+  .footer-top .container { grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr ; }
 
   .footer-brand { grid-column: auto; }
 
@@ -1268,6 +1268,265 @@ address.footer-contact-link { max-width: 30ch; }
 
 .tab-nav li {
   text-align: center; /* Center the text within the list item */
+}
+
+
+.center {
+  text-align: center;
+}
+
+.animation-image {
+  animation: pulse 2s infinite; /* Change animation duration and timing as needed */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* Default styles */
+.instruction {
+  position: relative;
+  height: 102vh; /* Set initial height to fill the viewport */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('../images/LAP.png');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.5); /* Adjust the brightness to control the dimming effect */
+}
+
+
+.content {
+  position: relative; /* Ensure content stays on top of background */
+  margin-top: 120px;
+  z-index: 1; /* Ensure content stays on top of background */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .instruction {
+    height: auto; /* Set height to auto for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+
+.container {
+  text-align: center; /* Center content horizontally */
+}
+
+.btn-primary {
+  display: inline-block; /* Ensure button is displayed as a block element */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-primary {
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+}
+
+
+
+.container {
+  position: relative;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  margin: 0 10px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-name {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+}
+
+.card-image-values {
+  width: 100px; /* Adjust the width of the image */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px; /* Add some space between image and text */
+}
+
+
+
+
+.email-subscribe {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Custom CSS */
+.zoom-text {
+  transition: transform 0.2s ease; /* Add transition for smoothness */
+}
+
+.zoom-text:hover {
+  transform: scale(1.2); /* Increase scale on hover */
+}
+
+
+.small {
+  font-size: 0.8em; /* Adjust the font size as needed */
+}
+
+
+
+
+
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  color: black;
+  background-color: white;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.navbar-item.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 8px 20px;
+  min-width: 200px; /* Adjust the minimum width for larger screens */
+}
+
+@media (max-width: 768px) {
+  .navbar-list {
+    display: flex;
+    flex-direction: column; /* Align items in a column on smaller screens */
+  }
+
+  .navbar-item {
+    margin: 10px 0; /* Add spacing between navbar items */
+  }
+
+  .dropdown-menu {
+    position: static; /* Change to static positioning for mobile screens */
+    display: none; /* Hide the dropdown initially */
+    margin-top: 10px; /* Add spacing between dropdown menus */
+    border-radius: 0; /* Remove border radius */
+    box-shadow: none; /* Remove box shadow */
+    background-color: transparent; /* Set background to transparent */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar-item.dropdown:hover .dropdown-menu,
+  .dropdown-menu:hover {
+    display: block; /* Display dropdown on hover for mobile screens */
+  }
+
+  .dropdown-menu li {
+    min-width: 100%; /* Set full width for dropdown items */
+    padding: 10px 20px; /* Adjust padding for dropdown items */
+  }
 }
 
 
